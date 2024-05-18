@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .product-images {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .product-images img {
+            max-width: 30%;
+        }
+        .product-details {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .product-details h2 {
+            margin-top: 0;
+        }
+        .related-products {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Product Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="product-images">
+            <img src="product-img1.jpg" alt="Product Image">
+            <img src="product-img2.jpg" alt="Product Image">
+            <img src="product-img3.jpg" alt="Product Image">
+        </div>
+
+        <div class="product-details">
+            <h2>Product Name</h2>
+            <p>Description of the product.</p>
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="related-products">
+            <h2>Related Products</h2>
+            <div class="product">
+                <h3>Related Product 1</h3>
+                <p>Description of related product 1.</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Related Product 2</h3>
+                <p>Description of related product 2.</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more related products as needed -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Product Page</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hero {
+            background: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .blog-posts, .about, .contact {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blog">Blog Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Welcome to My Blog</h1>
+        <p>Sharing my thoughts and experiences</p>
+    </div>
+
+    <div class="container">
+        <section id="blog" class="blog-posts">
+            <h2>Recent Blog Posts</h2>
+            <div class="post">
+                <h3>Blog Post One</h3>
+                <p>Brief description of blog post one.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <h3>Blog Post Two</h3>
+                <p>Brief description of blog post two.</p>
+                <a href="#">Read More</a>
+            </div>
+            <!-- Add more posts as needed -->
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Information about the blog author.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Personal Blog</p>
+    </footer>
+</body>
+</html>
