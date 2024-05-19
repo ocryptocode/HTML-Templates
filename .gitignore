@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+*.env
+*.bak
+*.old
+*.orig
+*.swo
+*.swp
+*.swn
+*.sws
+*.zip
+*.tar.gz
+
+# Backup files
+*.bak
+*.bkp
+*~
